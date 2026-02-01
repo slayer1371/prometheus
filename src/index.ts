@@ -31,3 +31,7 @@ app.get("/metrics", async (req, res) => {
 })
 
 app.listen(3000);
+
+
+
+// docker run -p 9090:9090 -v ./prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
